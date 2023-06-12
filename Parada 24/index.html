@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Conversor</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+    </head>
+
+    <body>
+
+        <main>
+
+            <h1>Conversor de temperatura!</h1>
+            <input type="text" placeholder="Digite os graus Celcius" id="celcius">
+            
+            <h2>Escolha a conversão</h2>
+            
+            <select id="operador">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            
+            </select>
+            
+            <input type="submit" value="Converter" onclick="conversor()">
+
+            <h5>Sua temperatura convertida:</h5>
+
+            <div id="resp"></div>
+
+        </main>
+    </body>
+
+</html>

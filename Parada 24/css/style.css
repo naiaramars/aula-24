@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(65, 86, 249);
+}
+
+main{
+    background-color: rgb(122, 146, 252);
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40%;
+}
+
+input{
+    text-align: center;
+}
+
+input:hover{
+    background-color: rgb(147, 147, 240);
+}
+
+select{
+    margin-bottom: 25px;
+}
+
+#resp{
+    margin:5px;
+    padding: 10px;
+    background-color:  rgb(122, 146, 252);
+    text-decoration: underline solid rgb(17, 17, 81);
+    font-size: large;
+}
